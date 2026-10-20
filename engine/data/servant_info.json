@@ -1,0 +1,326 @@
+{
+ "_note": "FGO 档案（Richard 为 Fate/strange Fake 版）。2026-10-19 研究子任务从 FGO Wiki / TYPE-MOON Wiki（api.php）抓取，并用 Atlas Academy JP 游戏数据逐项核对；值与来源见 sources。HUD 只显示这里有的字段。 2026-10-20 追加 ishtar / arash / bedivere / lion_king / quetzalcoatl（同法核对；NP 等级取资料页等级；重音字母改 ASCII）。 2026-10-20 追加 hippolyta（FSF 第 3 卷数值表 = FGO No.468 资料；宝具取 FSF 的戦神の軍帯，FGO 里是技能）。",
+ "artoria": {
+  "en": "ARTORIA PENDRAGON",
+  "jp": "アルトリア・ペンドラゴン",
+  "cls": "SABER",
+  "p": {
+   "STR": "B",
+   "END": "B",
+   "AGI": "B",
+   "MAN": "A",
+   "LUK": "A+",
+   "NP": "A++"
+  },
+  "np_en": "EXCALIBUR",
+  "np_jp": "約束された勝利の剣",
+  "np_ruby": "エクスカリバー",
+  "np_rank": "A++",
+  "np_type": "ANTI-FORTRESS",
+  "src": "fategrandorder.fandom.com/wiki/Artoria_Pendragon; atlasacademy JP servant 2"
+ },
+ "artoria_alter": {
+  "en": "ARTORIA PENDRAGON [ALTER]",
+  "jp": "アルトリア・ペンドラゴン〔オルタ〕",
+  "cls": "SABER",
+  "p": {
+   "STR": "A",
+   "END": "A",
+   "AGI": "D",
+   "MAN": "A++",
+   "LUK": "C",
+   "NP": "A++"
+  },
+  "np_en": "EXCALIBUR MORGAN",
+  "np_jp": "約束された勝利の剣",
+  "np_ruby": "エクスカリバー・モルガン",
+  "np_rank": "A++",
+  "np_type": "ANTI-FORTRESS",
+  "src": "fategrandorder.fandom.com/wiki/Artoria_Pendragon_(Alter); atlasacademy JP servant 3"
+ },
+ "jeanne": {
+  "en": "JEANNE D'ARC",
+  "jp": "ジャンヌ・ダルク",
+  "cls": "RULER",
+  "p": {
+   "STR": "B",
+   "END": "B",
+   "AGI": "A",
+   "MAN": "A",
+   "LUK": "C",
+   "NP": "A++"
+  },
+  "np_en": "LUMINOSITE ETERNELLE",
+  "np_jp": "我が神はここにありて",
+  "np_ruby": "リュミノジテ・エテルネッル",
+  "np_rank": "A",
+  "np_type": "BARRIER",
+  "src": "fategrandorder.fandom.com/wiki/Jeanne_d'Arc; atlasacademy JP servant 59"
+ },
+ "okita": {
+  "en": "OKITA SOUJI",
+  "jp": "沖田総司",
+  "cls": "SABER",
+  "p": {
+   "STR": "C",
+   "END": "E",
+   "AGI": "A+",
+   "MAN": "E",
+   "LUK": "D",
+   "NP": "C"
+  },
+  "np_en": "MUMYOU SANDAN-ZUKI",
+  "np_jp": "無明三段突き",
+  "np_ruby": "むみょうさんだんづき",
+  "np_rank": "—",
+  "np_type": "ANTI-UNIT",
+  "src": "fategrandorder.fandom.com/wiki/Okita_Sōji; atlasacademy JP servant 68"
+ },
+ "okita_alter": {
+  "en": "OKITA SOUJI [ALTER]",
+  "jp": "沖田総司〔オルタ〕",
+  "cls": "ALTER EGO",
+  "p": {
+   "STR": "B",
+   "END": "C",
+   "AGI": "A",
+   "MAN": "B",
+   "LUK": "C",
+   "NP": "A"
+  },
+  "np_en": "ZEKKEN - MUKYUU SANDAN",
+  "np_jp": "絶剱・無穹三段",
+  "np_ruby": "ぜっけん・むきゅうさんだん",
+  "np_rank": "A",
+  "np_type": "ANTI-WORLD",
+  "src": "fategrandorder.fandom.com/wiki/Okita_Sōji_(Alter); atlasacademy JP servant 209"
+ },
+ "musashi": {
+  "en": "MIYAMOTO MUSASHI",
+  "jp": "宮本武蔵",
+  "cls": "SABER",
+  "p": {
+   "STR": "B",
+   "END": "B",
+   "AGI": "B",
+   "MAN": "E",
+   "LUK": "B",
+   "NP": "B"
+  },
+  "np_en": "RIKUDOU GORIN - KURIKARA TENSHOU",
+  "np_jp": "六道五輪・倶利伽羅天象",
+  "np_ruby": "りくどうごりん・くりからてんしょう",
+  "np_rank": "A+",
+  "np_type": "ANTI-UNIT",
+  "src": "fategrandorder.fandom.com/wiki/Miyamoto_Musashi; atlasacademy JP servant 153"
+ },
+ "medusa": {
+  "en": "MEDUSA",
+  "jp": "メドゥーサ",
+  "cls": "RIDER",
+  "p": {
+   "STR": "B",
+   "END": "D",
+   "AGI": "A",
+   "MAN": "B",
+   "LUK": "E",
+   "NP": "A+"
+  },
+  "np_en": "BELLEROPHON",
+  "np_jp": "騎英の手綱",
+  "np_ruby": "ベルレフォーン",
+  "np_rank": "A+",
+  "np_type": "ANTI-ARMY",
+  "src": "fategrandorder.fandom.com/wiki/Medusa; atlasacademy JP servant 23"
+ },
+ "karna": {
+  "en": "KARNA",
+  "jp": "カルナ",
+  "cls": "LANCER",
+  "p": {
+   "STR": "B",
+   "END": "C",
+   "AGI": "A",
+   "MAN": "B",
+   "LUK": "D",
+   "NP": "EX"
+  },
+  "np_en": "VASAVI SHAKTI",
+  "np_jp": "日輪よ、死に随え",
+  "np_ruby": "ヴァサヴィ・シャクティ",
+  "np_rank": "EX",
+  "np_type": "ANTI-DIVINE",
+  "src": "fategrandorder.fandom.com/wiki/Karna; atlasacademy JP servant 85"
+ },
+ "mordred": {
+  "en": "MORDRED",
+  "jp": "モードレッド",
+  "cls": "SABER",
+  "p": {
+   "STR": "B+",
+   "END": "A",
+   "AGI": "B",
+   "MAN": "B",
+   "LUK": "D",
+   "NP": "A"
+  },
+  "np_en": "CLARENT BLOOD ARTHUR",
+  "np_jp": "我が麗しき父への叛逆",
+  "np_ruby": "クラレント・ブラッドアーサー",
+  "np_rank": "A+",
+  "np_type": "ANTI-ARMY",
+  "src": "fategrandorder.fandom.com/wiki/Mordred; atlasacademy JP servant 76"
+ },
+ "mash": {
+  "en": "MASH KYRIELIGHT",
+  "jp": "マシュ・キリエライト",
+  "cls": "SHIELDER",
+  "p": {
+   "STR": "C",
+   "END": "A",
+   "AGI": "D",
+   "MAN": "B",
+   "LUK": "C",
+   "NP": "?"
+  },
+  "np_en": "LORD CAMELOT",
+  "np_jp": "いまは遙か理想の城",
+  "np_ruby": "ロード・キャメロット",
+  "np_rank": "B+++",
+  "np_type": "ANTI-EVIL",
+  "src": "fategrandorder.fandom.com/wiki/Mashu_Kyrielight; atlasacademy JP servant 1"
+ },
+ "richard": {
+  "en": "RICHARD I",
+  "jp": "リチャードⅠ世",
+  "cls": "SABER",
+  "p": {
+   "STR": "B",
+   "END": "B",
+   "AGI": "EX",
+   "MAN": "B",
+   "LUK": "C",
+   "NP": "A"
+  },
+  "np_en": "EXCALIBUR",
+  "np_jp": "永久に遠き勝利の剣",
+  "np_ruby": "エクスカリバー",
+  "np_rank": "D~A+",
+  "np_type": "ANTI-ARMY",
+  "src": "typemoon.fandom.com/wiki/Richard_I (Fate/strange Fake block)"
+ },
+ "ishtar": {
+  "en": "ISHTAR",
+  "jp": "イシュタル",
+  "cls": "ARCHER",
+  "p": {
+   "STR": "B",
+   "END": "B",
+   "AGI": "B",
+   "MAN": "EX",
+   "LUK": "A",
+   "NP": "A++"
+  },
+  "np_en": "AN GAL TA KI GAL SHE",
+  "np_jp": "山脈震撼す明星の薪",
+  "np_ruby": "アンガルタ・キガルシュ",
+  "np_rank": "A++",
+  "np_type": "ANTI-MOUNTAIN",
+  "src": "https://fategrandorder.fandom.com/wiki/Ishtar; https://fategrandorder.fandom.com/wiki/An_Gal_Ta_Ki_Gal_Šè/Rank_A++; https://api.atlasacademy.io/nice/JP/servant/142?lore=true"
+ },
+ "arash": {
+  "en": "ARASH",
+  "jp": "アーラシュ",
+  "cls": "ARCHER",
+  "p": {
+   "STR": "B",
+   "END": "A",
+   "AGI": "B+",
+   "MAN": "E",
+   "LUK": "D",
+   "NP": "B++"
+  },
+  "np_en": "STELLA",
+  "np_jp": "流星一条",
+  "np_ruby": "ステラ",
+  "np_rank": "B++",
+  "np_type": "ANTI-ARMY",
+  "src": "https://fategrandorder.fandom.com/wiki/Arash; https://fategrandorder.fandom.com/wiki/Stella/Rank_B++; https://api.atlasacademy.io/nice/JP/servant/16?lore=true"
+ },
+ "bedivere": {
+  "en": "BEDIVERE",
+  "jp": "ベディヴィエール",
+  "cls": "SABER",
+  "p": {
+   "STR": "A",
+   "END": "B",
+   "AGI": "A+",
+   "MAN": "C",
+   "LUK": "B",
+   "NP": "A"
+  },
+  "np_en": "SWITCH ON - AIRGETLAM",
+  "np_jp": "剣を摂れ、銀色の腕",
+  "np_ruby": "スイッチオン・アガートラム",
+  "np_rank": "C",
+  "np_type": "ANTI-UNIT",
+  "src": "https://fategrandorder.fandom.com/wiki/Bedivere; https://fategrandorder.fandom.com/wiki/Switch_On_-_Airgetlám/Rank_C; https://api.atlasacademy.io/nice/JP/servant/126?lore=true"
+ },
+ "lion_king": {
+  "en": "LION KING",
+  "jp": "獅子王",
+  "cls": "LANCER",
+  "p": {
+   "STR": "B",
+   "END": "A",
+   "AGI": "A",
+   "MAN": "A",
+   "LUK": "C",
+   "NP": "A++"
+  },
+  "np_en": "RHONGOMYNIAD",
+  "np_jp": "最果てにて輝ける槍",
+  "np_ruby": "ロンゴミニアド",
+  "np_rank": "A++",
+  "np_type": "ANTI-FORTRESS",
+  "src": "https://fategrandorder.fandom.com/wiki/Lion_King (redirect to Artoria_Pendragon_(Lancer)); https://fategrandorder.fandom.com/wiki/Rhongomyniad/Artoria_Pendragon_(Lancer)/Rank_A++; https://api.atlasacademy.io/nice/JP/servant/119?lore=true; https://api.atlasacademy.io/nice/JP/svt/9936700 (enemy named 獅子王 in quest 91800101, 女神ロンゴミニアド in 1000631/1000632)"
+ },
+ "quetzalcoatl": {
+  "en": "QUETZALCOATL",
+  "jp": "ケツァル・コアトル",
+  "cls": "RIDER",
+  "p": {
+   "STR": "B",
+   "END": "B",
+   "AGI": "B+",
+   "MAN": "EX",
+   "LUK": "A+",
+   "NP": "EX"
+  },
+  "np_en": "XIUHCOATL",
+  "np_jp": "炎、神をも灼き尽くせ",
+  "np_ruby": "シウ・コアトル",
+  "np_rank": "A",
+  "np_type": "ANTI-UNIT / ANTI-FORTRESS",
+  "src": "https://fategrandorder.fandom.com/wiki/Quetzalcoatl; https://fategrandorder.fandom.com/wiki/Xiuhcoatl; https://api.atlasacademy.io/nice/JP/servant/144?lore=true"
+ },
+ "hippolyta": {
+  "en": "HIPPOLYTA",
+  "jp": "ヒッポリュテ",
+  "cls": "RIDER",
+  "p": {
+   "STR": "B",
+   "END": "B",
+   "AGI": "A",
+   "MAN": "C",
+   "LUK": "D",
+   "NP": "A"
+  },
+  "np_en": "GODDESS OF WAR",
+  "np_jp": "戦神の軍帯",
+  "np_ruby": "ゴッデス・オブ・ウォー",
+  "np_rank": "A",
+  "np_type": "ANTI-UNIT / ANTI-FORTRESS",
+  "src": "https://typemoon.fandom.com/wiki/Hippolyta; https://typemoon.fandom.com/wiki/Encyclopedia/Misc (True Rider section = FSF Vol.3 status sheet); https://typemoon.fandom.com/wiki/Goddess_of_War; https://api.atlasacademy.io/nice/JP/servant/468?lore=true; https://fategrandorder.fandom.com/wiki/Hippolyta; https://fate-strange-fake.com/character/"
+ }
+}

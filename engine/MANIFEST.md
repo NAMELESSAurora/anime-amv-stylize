@@ -62,3 +62,4 @@ ffmpeg（含 hevc_nvenc / h264_nvenc）、numpy、opencv-python、Pillow、scipy
 | `sep_bandit.py` | BandIt v2 音乐掩码（维纳软掩码、按需缓存）；`bg()` = 原声背景压低（v4_audio 默认用它，不完全去配乐） |
 | `v4_audio.py` | 成片比歌长时的混音：歌分段 + native_audio + 环境底 + 台词 + carve + 限制 |
 | `v7_cine.py` | 电影质感收尾层 + 21:9 动态遮幅（break 段） |
+| `v8_post.py` | **ER 后处理层**（Edgerunners AMV 移植，通用、分辨率无关、不改 v2_preview 默认行为）：脸保护 / 调色预设（含 d2）/ 色块跳 / 局部光效 / 网点 / 冲击帧 + slam / 反色黑白闪 / 叠画格 + 九宫格拉远 / 对角碎裂 / 叠化 match cut / 画中画色跳 / 自由分格漫画页 / 细线 HUD / 遮幅衔接 + J-cut / 歌词动效预设 / QC；速度线默认关。`python v8_post.py` 自检。见 reference/11_post_er.md |

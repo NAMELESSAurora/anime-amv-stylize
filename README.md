@@ -8,8 +8,8 @@
 
 ```
 SKILL.md            入口：什么时候用、11 步流程、8 种风格层、硬规则
-engine/             46 个 Python 模块 + MANIFEST.md（代码快照）
-reference/          10 篇方法文档：流程 / 风格 / HUD / 转场 / 歌词 / 音频 / 配色 / QC / 审美日志 / 素材
+engine/             47 个 Python 模块 + MANIFEST.md（代码快照）
+reference/          11 篇方法文档：流程 / 风格 / HUD / 转场 / 歌词 / 音频 / 配色 / QC / 审美日志 / 素材 / ER 后处理层
 research/           PROVANT 漫画风格背调 v2：A/B/C/D 四分册 + 样张 + grokbot_G11
 research/archive/v1/  第一版背调（已被 v2 取代，留档）
 ```
@@ -48,6 +48,7 @@ research/archive/v1/  第一版背调（已被 v2 取代，留档）
 | B | riso 角色海报 | 人声空档 |
 | G | Fate 灵基卡 | 关键角色首次特写 |
 | Cs | 柔边保色 | 抠像不稳的镜头 |
+| ER | 后处理层（`engine/v8_post.py`，来自 Edgerunners AMV） | 任意 look 之上 |
 
 ## 背调包（`research/`）
 
